@@ -47,3 +47,4 @@ curriculo-victor-coutinho.pdf
 
 - [LinkedIn](https://www.linkedin.com/in/victor-coutinho-3b630a3b6)
 - [GitHub](https://github.com/Victor-Coutin)
+- [Instagram](https://www.instagram.com/victor.coutin/)
