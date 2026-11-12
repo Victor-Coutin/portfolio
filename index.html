@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Victor Coutinho | Portfólio</title>
+<meta name="description" content="Portfólio de Victor Coutinho, estudante de Engenharia de Software.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Cpath d='M20 2l15.6 9v18L20 38 4.4 29V11L20 2z' fill='%23050505' stroke='%233df5a0' stroke-width='3'/%3E%3Cpath d='M12.5 15l7.5 12 7.5-12' fill='none' stroke='%23fff' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header>
+  <div class="wrap bar">
+    <a href="#inicio" class="logo" aria-label="Victor Coutinho, início">
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 2l15.6 9v18L20 38 4.4 29V11L20 2z" stroke="#3df5a0" stroke-width="2" stroke-linejoin="round"/><path d="M12.5 15l7.5 12 7.5-12" stroke="#f2f2f2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Victor Coutinho
+    </a>
+    <input type="checkbox" id="mt" aria-label="Abrir menu">
+    <label for="mt" class="burger" aria-hidden="true"><i></i><i></i><i></i></label>
+    <nav><a href="#sobre">Sobre</a><a href="#stack">Stack</a><a href="#materias">Matérias</a><a href="#projetos">Projetos</a><a href="#cursos">Cursos</a><a href="#contato">Contato</a></nav>
+  </div>
+</header>
+
+<main id="inicio" class="wrap">
+  <div class="hero">
+    <div>
+      <p class="hi">Olá, eu sou o</p>
+      <h1>Victor Coutinho</h1>
+      <p class="role">Estudante de Engenharia de Software, focado em concursos e em crescer em cibersegurança e full stack.</p>
+      <div class="cta"><a href="#projetos" class="btn p">Ver projetos</a><a href="https://github.com/Victor-Coutin" class="btn" target="_blank" rel="noopener">GitHub</a><a href="curriculo-victor-coutinho.pdf" class="btn" target="_blank" rel="noopener">Currículo</a></div>
+    </div>
+    <div class="pic"><img src="img/foto.jpg" alt="Foto de Victor Coutinho"></div>
+  </div>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <div class="about">
+      <div>
+        <p>Estudo Engenharia de Software e transformo cada matéria em prática: lógica, Python, banco de dados, C, interfaces e design.</p>
+        <p>Meu foco principal hoje são os concursos públicos, que me dão disciplina e constância. Em paralelo, mantenho a tecnologia em dia e quero me aprofundar em cibersegurança e desenvolvimento full stack.</p>
+      </div>
+      <ul class="focus">
+        <li><b>Concursos públicos</b><span>prioridade atual</span></li>
+        <li><b>Cibersegurança</b><span>próximo estudo</span></li>
+        <li><b>Full stack</b><span>front, back e dados</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="stack">
+    <h2>Stack</h2>
+    <div class="tech" id="tech"></div>
+  </section>
+
+  <section id="materias">
+    <h2>Matérias</h2>
+    <div class="sems">
+      <div class="sem">
+        <h3><i class="dot"></i>1º semestre de 2026 · concluído</h3>
+        <ul>
+          <li>Programação de Computadores<span>Python</span></li>
+          <li>Prototipagem de Sistemas Computacionais<span>Figma</span></li>
+          <li>Engenharia de Prompt e Aplicações em IA</li>
+          <li>Interface e Jornada do Usuário</li>
+        </ul>
+      </div>
+      <div class="sem">
+        <h3><i class="dot h"></i>2º semestre de 2026 · cursando</h3>
+        <ul>
+          <li>Algoritmos e Pensamento Computacional<span>Linguagem C</span></li>
+          <li>Desenvolvimento Front-End para Web<span>HTML, CSS e JavaScript</span></li>
+          <li>Modelagem de Banco de Dados<span>SQL</span></li>
+          <li>Design Profissional</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projs">
+      <article class="proj">
+        <div class="cv"><img src="img/reservei.jpg" alt="Logo do ReservEI"></div>
+        <div class="bd">
+          <h3>ReservEI</h3>
+          <p>Sistema de gerenciamento de reservas e mesas de restaurante: telas mobile e desktop, fluxo do usuário, grid, dashboard, lista de reservas, fila de espera, mapa de mesas e cadastro de clientes.</p>
+          <span class="tg">Figma · UX/UI · Prototipagem</span>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cv"><img src="img/tea.jpg" alt="Capa do projeto Direitos TEA"></div>
+        <div class="bd">
+          <h3>Direitos TEA</h3>
+          <p>Aplicativo web que explica os direitos de pessoas com TEA em linguagem simples.</p>
+          <span class="tg">Web app</span>
+          <a class="go" href="https://tea-profissional.netlify.app/" target="_blank" rel="noopener">Abrir o site</a>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cv"><img src="img/presidentes.jpg" alt="Página inicial do site Presidentes do Brasil"></div>
+        <div class="bd">
+          <h3>Presidentes do Brasil</h3>
+          <p>Linha do tempo dos governos desde Fernando Henrique Cardoso até o atual mandato, com navegação por presidente, vídeo e seção sobre a trajetória democrática.</p>
+          <span class="tg">HTML · CSS · JavaScript</span>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cv"><img src="img/hoyalpet.jpg" alt="Cachorro husky, imagem do site HoyalPet"></div>
+        <div class="bd">
+          <h3>HoyalPet</h3>
+          <p>Site para um pet shop fictício, com apresentação, texto sobre cães, galeria de fotos, mapa e contato.</p>
+          <span class="tg">HTML · CSS</span>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cv"><img src="img/12-de-outubro.jpg" alt="Imagem do site 12 de Outubro"></div>
+        <div class="bd">
+          <h3>12 de Outubro</h3>
+          <p>Página temática sobre Nossa Senhora Aparecida e o Dia das Crianças, com carrossel, história da data, sugestões de como celebrar e oração.</p>
+          <span class="tg">HTML · CSS · Bootstrap</span>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="cv"><img src="img/devspace.jpg" alt="Página inicial do DevSpace"></div>
+        <div class="bd">
+          <h3>DevSpace</h3>
+          <p>Meu primeiro espaço de desenvolvimento: página responsiva em tema escuro, com menu mobile e seções sobre mim, skills e objetivos.</p>
+          <span class="tg">HTML · CSS</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="cursos">
+    <h2>Cursos</h2>
+    <ul class="cursos">
+      <li><b><a class="pdf" href="certificados/portfolio-dev-entrevistas.pdf" target="_blank" rel="noopener">Portfólio Dev: Projetos que Convertem em Entrevistas</a></b><span>Aprend · 25 horas</span></li>
+      <li><b><a class="pdf" href="certificados/algoritmos-logica-programacao.pdf" target="_blank" rel="noopener">Algoritmos e Lógica de Programação</a></b><span>Curso em Vídeo · 40 horas</span></li>
+      <li><b><a class="pdf" href="certificados/python-3-mundo-3.pdf" target="_blank" rel="noopener">Python 3, Mundo 3</a></b><span>Curso em Vídeo · 40 horas</span></li>
+      <li><b><a class="pdf" href="certificados/git-e-github.pdf" target="_blank" rel="noopener">Git e GitHub</a></b><span>Curso em Vídeo · 20 horas</span></li>
+      <li><b><a class="pdf" href="certificados/ingles-instrumental-tecnologia.pdf" target="_blank" rel="noopener">Inglês Instrumental para Tecnologia</a></b><span>Aprend · 20 horas</span></li>
+      <li><b><a class="pdf" href="certificados/masterclass-ia-sites.pdf" target="_blank" rel="noopener">Masterclass: IA para turbinar seus sites</a></b><span>Aprend · 4 horas</span></li>
+    </ul>
+    <p class="total">Mais de 140 horas de cursos concluídos em 2026. Clique no nome do curso para abrir o certificado em PDF.</p>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <p class="big">Vamos construir algo juntos?</p>
+    <div class="soc">
+      <a href="https://github.com/Victor-Coutin" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.35.95.1-.74.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>GitHub</a>
+      <a href="https://www.linkedin.com/in/victor-coutinho-3b630a3b6" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3V9.75zm6.5 0h3.83v1.54h.05c.53-1 1.84-2.04 3.78-2.04 4.04 0 4.79 2.66 4.79 6.12V21h-4v-5.64c0-1.35-.02-3.08-1.88-3.08-1.88 0-2.17 1.47-2.17 2.98V21h-4V9.75z"/></svg>LinkedIn</a>
+      <a href="https://www.instagram.com/victor.coutin/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg>Instagram</a>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© 2026 Victor Coutinho. Feito com HTML, CSS e JavaScript.</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
