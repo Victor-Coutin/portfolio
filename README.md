@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal, feito para reunir meus projetos, matérias, cursos e formas de contato.
 
-**Ver online:** https://victor-coutin.github.io/portfolio/
+**Ver online:** https://victor-coutin.github.io/
 
 ![Prévia do portfólio](img/previa.jpg)
 
